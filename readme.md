@@ -8,6 +8,12 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
 
-## First setup
+## First setup (for Macs)
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone the Github repo. You can use the 'git clone' command for this.
+
+2. Install Docker on your Mac.
+
+3. Run 'docker -v' and 'docker-compose -v' in the terminal to check that Docker is installed.
+
+4. Change directory ('cd') into the directory with the Github repo, and run 'sudo docker-compose up' to build the container and run the project.
